@@ -147,7 +147,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
           if (options.hasOwnProperty('distId')) {
             cfOptions.distId = options.distId;
-            cfOptions.invalidate = options.invalidate;
+            cfOptions.invalidate = options.invalidate.split(' ');
           }
 
           // Starts the deployment of all found files.

@@ -16,7 +16,7 @@ Deploys files found by the `./dist/**` glob patten to S3. Change `AWS_REGION` wi
 --gzip
 ```
 
-Specifying `--gzip` will gzip all files before sending them.
+Specifying `--gzip` will gzip all files before sending them to S3, and adds appropriate `Content-Encoding: gzip` metadata attribute on uploaded elements in S3, so that when they are opened in the browser, the browser knows to decompress them first before displaying.
 
 ```
 --cache X
@@ -145,6 +145,12 @@ Invokes eslint validation based on rules defined in the `.eslintrc` file.
 * After changes are merged into master branch, checkout master branch, run tests one more time, and publish this package to npm repository.
 
 ## Changelog
+
+### 1.0.0
+
+**No changes**
+
+The v0.11 re-published to follow stricter SemVer.
 
 ### 0.11.0
 

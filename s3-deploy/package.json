@@ -1,8 +1,8 @@
 {
   "_from": "s3-deploy@^1.0.0",
-  "_id": "s3-deploy@1.0.0",
+  "_id": "s3-deploy@1.0.1",
   "_inBundle": false,
-  "_integrity": "sha512-aM3JWgpTK80VWEaZDnyQkzMDYU3zPgjZzQ5m6AziQVi5SYhyvrU7J/C9N5Ekl3TTK+YyfBYb8ku3a2FTZLXd1A==",
+  "_integrity": "sha512-7G5VAuT09J1P8GTFcnRDsaeO4/XY73XnyKMjVJIVQ75CytjpJhDc6van2sUYeuskNvUthy789Z45VuldJnOaiA==",
   "_location": "/s3-deploy",
   "_phantomChildren": {
     "inflight": "1.0.6",
@@ -24,8 +24,8 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/s3-deploy/-/s3-deploy-1.0.0.tgz",
-  "_shasum": "097a72979a9801ef778eb12fc0f2c6ace2e8b4d2",
+  "_resolved": "https://registry.npmjs.org/s3-deploy/-/s3-deploy-1.0.1.tgz",
+  "_shasum": "47f0fb6a677a92e7ad61dcd8713753ddfa866535",
   "_spec": "s3-deploy@^1.0.0",
   "_where": "/home/sindri/dev/vikes-match-clock",
   "author": {
@@ -82,5 +82,5 @@
     "release": "npm run prepublish",
     "test": "mocha"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
